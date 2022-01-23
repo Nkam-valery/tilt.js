@@ -3,10 +3,14 @@
 # Tilt.js
 A tiny requestAnimationFrame powered 60+fps lightweight parallax tilt effect for jQuery. 
 
-Weights just ⚖**1.45kb Gzipped**
+Weights just ⚖**1.71kb Gzipped**
 ![Tilt.js demo gif](http://gijsroge.github.io/tilt.js/tilt.js.gif)
 
-####Take a look at the **[landing page](http://gijsroge.github.io/tilt.js/)** for demo's.
+#### Take a look at the **[landing page](http://gijsroge.github.io/tilt.js/)** for demos.
+
+### Tilt.js in the wild
+* http://creativetheory.agency/who-we-are/
+* https://madewithlove.be/our-products/audits ([react version](https://github.com/jonathandion/react-tilt))
 
 ### Usage
 
@@ -27,7 +31,7 @@ easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
 scale:          1,      // 2 = 200%, 1.5 = 150%, etc..
 speed:          300,    // Speed of the enter/exit transition.
 transition:     true,   // Set a transition on enter/exit.
-axis:           null,   // What axis should be disabled. Can be X or Y.
+disableAxis:    null,   // What axis should be disabled. Can be X or Y.
 reset:          true,   // If the tilt effect has to be reset on exit.
 glare:          false,  // Enables glare effect
 maxGlare:       1       // From 0 - 1.
@@ -59,5 +63,13 @@ tilt.tilt.reset.call(tilt);
 - **yarn:** `yarn add tilt.js`
 - **npm:** `npm install --save tilt.js`
 
+### CDN
+- https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js
+- https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js
+
 ### Alternatives
-- **Vanilla JS version:** https://github.com/micku7zu/vanilla-tilt.js
+- **Vanilla JS:** https://github.com/micku7zu/vanilla-tilt.js
+- **React:** https://github.com/jonathandion/react-tilt
+- **React** https://github.com/jonahallibone/react-tilty
+- **Polymer:** https://github.com/YingshanDeng/polymer-tilt
+- **Preact** https://github.com/RomanistHere/preact-tilt
